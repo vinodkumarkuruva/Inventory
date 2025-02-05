@@ -71,3 +71,27 @@
     
        ```
 
+
+## Endpoints
+- **POST /transform:**  Simulates a transform operation, with a 10-second delay. Expects JSON data.
+
+- **POST /translation:** Simulates a translation operation, with a 10-second delay. Expects JSON data.
+
+- **POST /rotation:** Simulates a rotation operation, with a 10-second delay. Expects JSON data.
+
+- **POST /scale:** Simulates a scale operation, with a 10-second delay. Expects JSON data.
+
+- **GET /file-path:** Retrieves the file path of the project, either as the full path or just the directory.
+
+- **POST /add-item:** Adds a new item to the inventory. Expects name and quantity in JSON format.
+
+- **POST /buy-item:** Buys an item (decreases its quantity). Expects name in JSON format.
+
+- **POST /return-item:** Returns an item (increases its quantity). Expects name in JSON format.
+
+- **POST /remove-item:** Removes an item from the inventory. Expects name in JSON format.
+
+- **POST /update-quantity:** Updates the quantity and max quantity of an item. Expects name and quantity in JSON format.
+
+- **GET /inventory:** Fetches all inventory items, returning their names and quantities in JSON format.
+
