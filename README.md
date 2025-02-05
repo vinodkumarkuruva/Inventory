@@ -13,11 +13,11 @@
 
 ## Tech Stack
 
-    Backend   :Flask ,Flask-Sqalchemy ,Flask-MIgrate
-    
-    Database  :SQLite (or replace with PostgreSQL/MySQL if desired)
-    
-    GUI:PyQt5
+**Backend   :** Flask ,Flask-Sqalchemy ,Flask-MIgrate
+
+**Database  :** SQLite (or replace with PostgreSQL/MySQL if desired)
+
+**GUI:** PyQt5
 
 
 ## Features
