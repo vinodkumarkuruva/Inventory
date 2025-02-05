@@ -95,3 +95,19 @@
 
 - **GET /inventory:** Fetches all inventory items, returning their names and quantities in JSON format.
 
+
+## Other Info
+
+
+    --> Error Handling: The application returns appropriate HTTP 400 status codes for bad requests, such as when a book is unavailable or a student has already issued the maximum number of books.
+
+    --> Modularity: The application is designed to be modular, with separate services handling business logic, making the codebase easy to maintain and extend.
+## Documentation
+    
+    [Python_Documentation](https://docs.python.org/3/)
+    
+    [Flask_Documentation](https://flask.palletsprojects.com/en/stable/)
+    
+    [SQLite_Documentation](https://www.sqlite.org/docs.html)
+
+
