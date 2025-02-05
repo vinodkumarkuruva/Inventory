@@ -1,6 +1,7 @@
 # Title -  Inventory Management System
 
-    This application provides a backend API for managing inventory items using Flask, SQLAlchemy, and SQLite. It also features a frontend built with PyQt5 for a user-friendly interface to interact with the inventory system.
+    This application provides a backend API for managing inventory items using Flask, SQLAlchemy, and SQLite. 
+    It also features a frontend built with PyQt5 for a user-friendly interface to interact with the inventory system.
     
 ## Table of Contents
     1. Tech Stack 
@@ -9,3 +10,11 @@
     4. API Endpoints
     5. Other Info
     6. Documentation
+
+## Tech Stack
+
+    **Backend   :** Flask ,Flask-Sqalchemy ,Flask-MIgrate
+    
+    **Database  :** SQLite (or replace with PostgreSQL/MySQL if desired)
+    
+    **GUI:** PyQt5
